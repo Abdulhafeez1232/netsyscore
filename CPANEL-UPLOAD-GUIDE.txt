@@ -1,0 +1,37 @@
+NETSYSCORE WEBSITE - CPANEL UPLOAD GUIDE
+
+This is a complete static HTML/CSS/JavaScript website. No database, PHP,
+Node.js, build step or installation is required.
+
+1. Back up any existing website before replacing files.
+2. In cPanel File Manager, open your domain's document root. For the main
+   domain this is normally public_html; other domains may use a different folder.
+3. Upload NetSysCore-cPanel-Website.zip into that folder and extract it.
+4. index.html, style.css, app.js and assets/ must sit directly in the document
+   root, not in an additional nested folder.
+5. If an old index.php or other default homepage exists, back it up and move
+   it out of this folder so it does not take precedence over index.html.
+   Do not remove files belonging to another application without a backup.
+6. Visit your domain and refresh the browser. Test search, categories,
+   product details and the quotation download.
+7. Delete the uploaded ZIP and this guide from the public folder after setup.
+
+You may also extract into a subfolder to preview before replacing a live site.
+All website images are included locally in assets/.
+
+EDITING
+index.html: page content, branding, navigation and footer.
+style.css: colours, typography and responsive layout.
+app.js: product collection, product details and quotation interactions.
+assets/: product and banner images.
+
+FUNCTIONALITY
+Quotation selections are stored only in each visitor's browser. Enquiries and
+quotation requests download as text files. Nothing is emailed or submitted to
+a server. There is no payment system, checkout, account login or admin panel.
+Product availability, specifications and pricing require confirmation.
+
+Product imagery is from Dell's reference website. The page includes an
+independent concept/not-affiliated notice. Before using these images on a
+public commercial site, ensure you have permission or replace them with your
+own or licensed images.
